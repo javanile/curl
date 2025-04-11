@@ -1,0 +1,7 @@
+
+
+services:
+  curl:
+    build: .
+    ports:
+      - "8183:80"
